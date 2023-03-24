@@ -1,0 +1,13 @@
+.ErrorBox{
+    background-color: rgb(180, 70, 70);
+    color: #ffffff;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 45px;
+    margin-right: 20px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}

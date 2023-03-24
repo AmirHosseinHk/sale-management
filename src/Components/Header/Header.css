@@ -1,0 +1,173 @@
+.Header{
+    margin-top: 17px;
+    margin-left: 27px;
+    margin-right: 20px;
+    width: 1310px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.inputBox{
+    color: #D2d2d2;
+    display: flex;
+    align-items: center;
+    background-color: #21222D;
+    border-radius: 5px;
+    width: 504px;
+    padding: 10px;
+}
+
+.inputBox input{
+    background-color: unset;
+    border: none;
+    width: 100%;
+    padding-left: 8px;
+}
+
+.header-profileBox{
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    width: 86px;
+    justify-content: space-between;
+}
+
+.header-profileBox img{
+    width: 29px;
+    height: 29px;
+    border-radius: 50%;
+}
+
+.bell{
+    width: 20px;
+    height: 20px;
+}
+
+@media screen and (max-width: 768px){
+    .Header{
+        margin-top: 17px;
+        margin-left: 20px;
+        width: 550px;
+        
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .inputBox{
+        color: #D2d2d2;
+        display: flex;
+        align-items: center;
+        background-color: #21222D;
+        border-radius: 5px;
+        width: 320px;
+        padding: 5px;
+    }
+    
+    .inputBox input{
+        background-color: unset;
+        border: none;
+        width: 100%;
+        padding-left: 8px;
+        font-size: 15px;
+    }
+    
+    .header-profileBox{
+        display: flex;
+        align-items: center;
+        color: #ffffff;
+        width: 110px;
+        justify-content: space-between;
+    }
+    
+    .header-profileBox img{
+        width: 29px;
+        height: 29px;
+        border-radius: 50%;
+    }
+    
+    .bell{
+        width: 25px;
+        height: 25px;
+    }
+}
+@media screen and (max-width: 425px){
+    .Header{
+        margin-top: 17px;
+        margin-left: 5px;
+        width: 310px;
+        
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .inputBox{
+        color: #D2d2d2;
+        display: flex;
+        align-items: center;
+        background-color: #21222D;
+        border-radius: 5px;
+        width: 160px;
+        padding: 5px;
+    }
+    
+    .inputBox input{
+        background-color: unset;
+        border: none;
+        width: 100%;
+        padding-left: 8px;
+    }
+    
+    .header-profileBox{
+        display: flex;
+        align-items: center;
+        color: #ffffff;
+        width: 70px;
+        justify-content: space-between;
+    }
+    
+    .header-profileBox img{
+        width: 29px;
+        height: 29px;
+        border-radius: 50%;
+    }
+    
+    .bell{
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media screen and (max-width: 385px){
+    .Header{
+        margin-top: 17px;
+        margin-left: 5px;
+        width: 235px;
+        
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .inputBox{
+        color: #D2d2d2;
+        display: flex;
+        align-items: center;
+        font-size: 8px;
+        background-color: #21222D;
+        border-radius: 5px;
+        width: 160px;
+        padding: 5px;
+    }
+    .header-profileBox{
+        display: flex;
+        align-items: center;
+        color: #ffffff;
+        width: 60px;
+        justify-content: space-between;
+    }
+}
+
+
+
